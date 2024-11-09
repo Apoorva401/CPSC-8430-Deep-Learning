@@ -41,10 +41,7 @@ In this project, I worked with a **Spoken-SQuAD** dataset, which is a spoken ver
 - **Word Error Rate (WER)**: The training set has a WER of 22.77%, and the testing set has a WER of 22.73%.
 
 ### Tokenization
-- The text is tokenized, meaning it is broken down into smaller units (tokens), which are then converted into IDs that the model can understand. For example, the sentence "Professor Feng Luo Deep Learning Course" is tokenized and converted to IDs for processing.
-
-### Model Training
-- **Training Assumption**: I assumed that answers are typically located near the question in the text. A windowing technique is used to extract segments of text around the answer.
+- The text is tokenized, meaning it is broken down into smaller units (tokens), which are then converted into IDs that the model can understand. 
 
 ### Performance Optimization
 - **Simple**: Used sample code provided to start.
@@ -57,7 +54,6 @@ In this project, I worked with a **Spoken-SQuAD** dataset, which is a spoken ver
 - The loss is tracked for each epoch, and a training accuracy placeholder is used.
 
 ### Evaluation Metrics & Results
-
    - **Exact Match (EM)**: Measures the percentage of predictions that exactly match the ground truth answer.
    - **F1 Score**: Considers precision and recall, measuring the overlap between the predicted and true answer text.
 
