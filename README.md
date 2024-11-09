@@ -29,6 +29,8 @@ This repository contains all of my homework projects for the Deep Learning cours
 
 This project aims to create a system that automatically generates captions for short videos, describing their content. It uses a type of artificial intelligence called a sequence-to-sequence model to process the video and produce a series of words that form the caption.Here,result is evaluated with the BLEU score.
 
+
+
 ### HW3:Extractive Question Answering with Spoken-SQuAD
 
 ### Overview
