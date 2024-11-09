@@ -56,7 +56,7 @@ In this project, I worked with a **Spoken-SQuAD** dataset, which is a spoken ver
 - For each batch, the model calculates the loss and updates the weights through backpropagation. 
 - The loss is tracked for each epoch, and a training accuracy placeholder is used.
 
-### 4. **Evaluation Metrics & Results**
+### Evaluation Metrics & Results
 
    - **Exact Match (EM)**: Measures the percentage of predictions that exactly match the ground truth answer.
    - **F1 Score**: Considers precision and recall, measuring the overlap between the predicted and true answer text.
