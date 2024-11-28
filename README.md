@@ -58,6 +58,7 @@ In this project, I worked with a **Spoken-SQuAD** dataset, which is a spoken ver
    - **F1 Score**: Considers precision and recall, measuring the overlap between the predicted and true answer text.
 
 
+
 ## HW4:Generative Model Training on CIFAR-10
 
 ## Overview
@@ -69,7 +70,6 @@ This project focuses on training three generative models—**DCGAN**, **WGAN**, 
   - 32x32 color images resized to 64x64.
   - Classes include airplanes, cars, birds, cats, etc.
   - Used to minimize resource consumption.
-
 
 ## Tasks
 
@@ -85,8 +85,6 @@ This project focuses on training three generative models—**DCGAN**, **WGAN**, 
 3. **Visualize Training Progress:**
    - Track generator and discriminator losses.
    - Plot FID scores across epochs for each model.
-
-
 
 ## Outputs
 
