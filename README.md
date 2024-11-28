@@ -58,6 +58,48 @@ In this project, I worked with a **Spoken-SQuAD** dataset, which is a spoken ver
    - **F1 Score**: Considers precision and recall, measuring the overlap between the predicted and true answer text.
 
 
+# Homework 4: Generative Model Training on CIFAR-10
+
+## Overview
+This project focuses on training three generative models—**DCGAN**, **WGAN**, and **ACGAN**—on the CIFAR-10 dataset. Each model is evaluated based on its ability to generate realistic and diverse images, utilizing unique techniques for improving generative performance.
+
+## Dataset
+
+- **CIFAR-10 Partial Subset:**
+  - 32x32 color images resized to 64x64.
+  - Classes include airplanes, cars, birds, cats, etc.
+  - Used to minimize resource consumption.
+
+
+## Tasks
+
+1. **Train Generative Models:**
+   - **DCGAN (Deep Convolutional GAN):** 
+   - **WGAN (Wasserstein GAN):** 
+   - **ACGAN (Auxiliary Classifier GAN):** 
+
+2. **Evaluate Model Performance:**
+   - Analyze training stability and image quality using metrics like Frechet Inception Distance (FID).
+   - Compare generated images visually against real images.
+
+3. **Visualize Training Progress:**
+   - Track generator and discriminator losses.
+   - Plot FID scores across epochs for each model.
+
+
+
+## Outputs
+
+1. **Generated Images:** 
+   - Real vs. Fake image grids for visual comparison.
+   - Models demonstrated varying levels of clarity and diversity.
+
+2. **Evaluation Metrics:**
+   - Generator and discriminator loss curves.
+   - FID scores for all models over 50 epochs.
+
+
+
 
 
 
