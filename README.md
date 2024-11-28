@@ -61,17 +61,17 @@ In this project, I worked with a **Spoken-SQuAD** dataset, which is a spoken ver
 
 ## HW4:Generative Model Training on CIFAR-10
 
-## Overview
+### Overview
 This project focuses on training three generative models—**DCGAN**, **WGAN**, and **ACGAN**—on the CIFAR-10 dataset. Each model is evaluated based on its ability to generate realistic and diverse images, utilizing unique techniques for improving generative performance.
 
-## Dataset
+### Dataset
 
 - **CIFAR-10 Partial Subset:**
   - 32x32 color images resized to 64x64.
   - Classes include airplanes, cars, birds, cats, etc.
   - Used to minimize resource consumption.
 
-## Tasks
+### Tasks
 
 1. **Train Generative Models:**
    - **DCGAN (Deep Convolutional GAN):** 
@@ -86,7 +86,7 @@ This project focuses on training three generative models—**DCGAN**, **WGAN**, 
    - Track generator and discriminator losses.
    - Plot FID scores across epochs for each model.
 
-## Outputs
+### Outputs
 
 1. **Generated Images:** 
    - Real vs. Fake image grids for visual comparison.
